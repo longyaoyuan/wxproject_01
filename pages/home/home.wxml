@@ -1,0 +1,101 @@
+<!--pages/home/home.wxml-->
+<!--首页进行页面导航-->
+<!--
+<view class="home_view"><text>商城首页</text></view>-->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+<!--输入文本框-->
+<view class='page_row' bindtap="suo">  
+  <view class="search">  
+    <view class="df search_arr">  
+      <icon class="searchcion" size='20' type='search'></icon>  
+      <input class="" disabled  placeholder="请输入关键字" value="{{searchValue}}"/>  
+    </view>  
+  </view>  
+  <view class='sousuo'>搜索</view>  
+</view> 
+
+<!--商品列表-->
+<view class="section">
+ 
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item">
+    <image class="flex_img" src='/pages/images/apple1.png'></image></view>
+    <view class="flex_text">茅台酒</view>
+ 
+   <view class="flex-item">
+    <image class="flex_img" src='/pages/images/apple1.png'></image></view>
+    <view class="flex_text">茅台酒</view>
+
+      <view class="flex-item">
+    <image class="flex_img" src='/pages/images/apple1.png'></image></view>
+    <view class="flex_text">茅台酒</view>
+
+
+      <view class="flex-item">
+    <image class="flex_img" src='/pages/images/apple1.png'></image></view>
+    <view class="flex_text">茅台酒</view>
+
+      <view class="flex-item">
+    <image class="flex_img" src='/pages/images/apple1.png'></image></view>
+    <view class="flex_text">茅台酒</view>
+  </view>
+ <!--第二行-->
+<view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item">
+    <image class="flex_img" src='/pages/images/apple1.png'></image></view>
+    <view class="flex_text">茅台酒</view>
+ 
+   <view class="flex-item">
+    <image class="flex_img" src='/pages/images/apple1.png'></image></view>
+    <view class="flex_text">茅台酒</view>
+
+      <view class="flex-item">
+    <image class="flex_img" src='/pages/images/apple1.png'></image></view>
+    <view class="flex_text">茅台酒</view>
+
+
+      <view class="flex-item">
+    <image class="flex_img" src='/pages/images/apple1.png'></image></view>
+    <view class="flex_text">茅台酒</view>
+
+      <view class="flex-item">
+    <image class="flex_img" src='/pages/images/apple1.png'></image></view>
+    <view class="flex_text">茅台酒</view>
+  </view>
+
+
+</view>
+<view class="containter">
+<view class="productShow">特色水果</view>
+ <view class="productShowImg"><image class="containter_img" src='../images/apple_01.png'></image></view> 
+ <view class="productShowText">这是一个来自中国贵州的神奇苹果，吃了能延年益寿……现在只要998元一个了</view>
+
+
+ <view class="productShowImg"><image class="containter_img" src='../images/apple_01.png'></image></view> 
+ <view class="productShowText">这是一个来自中国贵州的神奇苹果，吃了能延年益寿……现在只要998元一个了</view>
+ <view class="tubiao_01"><image class="tubiao_img" src='../images/jiantou.png'></image></view>
+ <view class="nextN">更多</view>
+</view>
+
+
+
+<view class="containter">
+<view class="productShow">特色水果</view>
+ <view class="productShowImg"><image class="containter_img" src='../images/apple_01.png'></image></view> 
+ <view class="productShowText">这是一个来自中国贵州的神奇苹果，吃了能延年益寿……现在只要998元一个了</view>
+
+
+ <view class="productShowImg"><image class="containter_img" src='../images/apple_01.png'></image></view> 
+ <view class="productShowText">这是一个来自中国贵州的神奇苹果，吃了能延年益寿……现在只要998元一个了</view>
+  <view class="tubiao_01"><image class="tubiao_img" src='../images/jiantou.png'></image></view>
+ <view class="nextN">更多</view>
+</view>
+<view> Hello  {{name}}! </view>
+<button bindtap="changeName"> Click me! </button>

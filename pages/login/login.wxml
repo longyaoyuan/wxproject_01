@@ -1,0 +1,20 @@
+<!--pages/login/login.wxml-->
+<view class="title">登录页面</view>
+<view class="container">
+    <form bindsubmit="formSubmit">
+        <view class="row">
+            <text>姓 名：</text>
+            <input class="user_input" type="text" name="userName" placeholder="在此输入用户名！" value="" />
+            
+        </view>
+        <view class="row">
+            <text>密 码：</text>
+            <input class="user_input" type="password" name="userPasswor" placeholder="在此输入密码！" value="" />
+        </view>
+        <view class="row">
+            <button type="primary"  form-type="submit">登陆</button>
+        </view>
+
+    </form>
+</view>
+<view>{{userName}}{{userText}}</view>

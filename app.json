@@ -1,0 +1,51 @@
+{
+  "pages":[
+      "pages/home/home",
+    "pages/login/login"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FF95CA",
+    "navigationBarTitleText": "GNC商城",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color":"#000000",
+    "borderStyle": "black",
+    "selectedColor": "#CE0000",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "/pages/images/shouye_01.png",
+      "selectedIconPath": "/pages/images/shouye_02.png"
+    },
+    {
+      "pagePath": "pages/home/home",
+      "text": "商品分类",
+      "iconPath": "/pages/images/fenlei_01.png",
+      "selectedIconPath": "/pages/images/fenlei_02.png"
+    },
+    {
+      "pagePath": "pages/home/home",
+      "text": "购物车",
+      "iconPath": "/pages/images/gouwuche_01.png",
+      "selectedIconPath": "/pages/images/gouwuche_02.png"
+    },
+    {
+      "pagePath": "pages/home/home",
+      "text": "我的中心",
+      "iconPath": "/pages/images/user_01.png",
+      "selectedIconPath": "/pages/images/user_02.png"
+    },
+
+  {
+    "pagePath": "pages/login/login",
+    "text": "登录",
+    "iconPath": "/pages/images/user_01.png",
+    "selectedIconPath": "/pages/images/user_02.png"
+  }
+    ]
+     
+  }
+
+}

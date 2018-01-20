@@ -1,0 +1,159 @@
+/* pages/home/home.wxss */
+.home_img{
+ 
+  border: 1px solid red;
+  width: 100rpx;
+  height: 300rpx;
+margin-left: 200rpx;
+margin-top: 50rpx;
+}
+.home_view{
+   
+  margin-left: 300rpx;
+}
+.home_view_img{
+  /* margin-left: 150rpx; */
+}
+.home_text{
+  margin-left: 260rpx;
+
+}
+/*文本框的样式*/
+.section{
+  /* border:1px solid  red; */
+  height: 100rpx;
+  background-color:#E0E0E0;
+  
+}
+#inputSearch{
+   /* border: 1px solid blue;  */
+    background-color:#FCFCFC;
+    margin-left:30rpx;
+    margin-top: 25rpx;
+    margin-right: 30rpx;
+}
+/*搜索框*/
+    .search{  
+      width: 80%;  
+    }  
+    .search_arr {  
+      border: 1px solid #d0d0d0;  
+      border-radius: 10rpx;  
+      margin-left: 20rpx;  
+       margin-top:10rpx;
+    }  
+    .search_arr input{  
+      margin-left: 60rpx;  
+      height: 60rpx;  
+      border-radius: 5px;  
+       
+    }  
+    .bc_text {  
+      line-height: 68rpx;  
+      height: 68rpx;  
+      margin-top: 34rpx;  
+    }  
+      
+    .sousuo {  
+      margin-left: 15rpx;  
+      width: 15%;  
+      height: 55%;  
+      margin-top:10rpx;
+      text-align: center;  
+      padding-top: 10rpx;
+      border: 1px solid #d0d0d0;  
+      border-radius: 10rpx;  
+      font-size: 30rpx;
+    }  
+    .page_row{  
+       /* border: 1px solid red;  */
+      background-color:#F0F0F0;
+      margin-top: 20rpx;
+      display: flex;  
+      height: 90rpx;
+      flex-direction: row  
+    }  
+    .searchcion {  
+      margin: 10rpx 10rpx 10rpx 10rpx;  
+      position: absolute;  
+      left:25rpx;  
+      z-index: 2;  
+      width: 20px;  
+      height: 20px;  
+      text-align: center;  
+    }  
+/*列表的样式*/
+.section{
+  margin-top:10rpx;
+  /* border:1px solid #F0F0F0; */
+  height: 124px;
+}
+.flex-wrp{
+    /* border:1px solid red; */
+    margin-top:0rpx;
+    height: 60px;
+    display:flex;
+    background-color: #FFFFFF;
+}
+.flex-item{
+  /* border:1px solid #ADADAD; */
+    width: 30px;
+    height: 30px;
+  
+    border-radius: 50%;
+    margin-left:70rpx; 
+    margin-top: 20rpx;
+}
+.flex_text{
+  margin-top: 92rpx;
+  margin-left: -82rpx;
+ text-align: center;
+ font-size: 30rpx;
+}
+ .flex_img{
+    width: 29px;
+    height: 29px;
+ }
+
+/*展示内容样式*/
+.containter{
+ border:1px solid red;
+ margin-top: 10rpx;
+  /* height: 300rpx; */
+}
+.containter_img{
+  border:1px solid black;
+  width:150rpx;
+  height:150rpx;
+  margin-left:30rpx;
+  margin-top: 50rpx;
+  background-color: #888888;
+}
+.productShow{
+  font-size: 50rpx;
+  text-align: center;
+}
+.productShowText{
+
+  height:150rpx;
+  margin-left:190rpx;
+  margin-top:-160rpx;
+  font-size: 30rpx;
+  padding-top: 30rpx;
+  
+}
+.nextN{
+  /* border:1px solid red; */
+  float: right;
+  margin-top: -50rpx;
+  margin-right: 32rpx;
+  font-size: 30rpx;
+}
+.tubiao_img{
+  width:30rpx;
+  height: 30rpx;
+}
+.tubiao_01{
+  float: right;
+   margin-top: -52rpx;
+}
