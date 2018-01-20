@@ -1,0 +1,26 @@
+<!--pages/classify/classify.wxml-->
+<text>商品分类</text>
+<view class="classify">
+ <image class="classify_img"src='../images/food_01.png'></image>
+  <text class="classify_text">新品上市</text>
+</view>
+<view class="h_line"></view>
+<view class="classify">
+   <image class="classify_img"src='../images/food_01.png'></image>
+  <text class="classify_text">热销商品</text>
+</view>
+<view class="h_line"></view>
+<view class="classify">
+   <image class="classify_img"src='../images/food_01.png'></image>
+  <text class="classify_text">特色商品</text>
+</view>
+<view class="h_line"></view>
+<view class="classify">
+   <image class="classify_img"src='../images/food_01.png'></image>
+  <text class="classify_text">绿色食品</text>
+</view>
+<view class="h_line"></view>
+<view class="classify">
+   <image class="classify_img"src='../images/food_01.png'></image>
+  <text class="classify_text">进口商品</text>
+</view>

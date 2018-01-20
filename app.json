@@ -1,7 +1,9 @@
 {
   "pages":[
-      "pages/home/home",
-    "pages/login/login"
+    "pages/home/home",
+    "pages/login/login",
+    "pages/classify/classify",
+    "pages/shopping/shopping"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -20,13 +22,13 @@
       "selectedIconPath": "/pages/images/shouye_02.png"
     },
     {
-      "pagePath": "pages/home/home",
+      "pagePath": "pages/classify/classify",
       "text": "商品分类",
       "iconPath": "/pages/images/fenlei_01.png",
       "selectedIconPath": "/pages/images/fenlei_02.png"
     },
     {
-      "pagePath": "pages/home/home",
+      "pagePath": "pages/shopping/shopping",
       "text": "购物车",
       "iconPath": "/pages/images/gouwuche_01.png",
       "selectedIconPath": "/pages/images/gouwuche_02.png"
